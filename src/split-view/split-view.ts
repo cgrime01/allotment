@@ -1183,7 +1183,7 @@ export class SplitView extends EventEmitter implements Disposable {
         ) {
           sash.state = SashState.Maximum;
         } else {
-          sash.state = SashState.Disabled;
+          sash.state = SashState.Enabled;
         }
       } else if (min && !max) {
         sash.state = SashState.Minimum;
